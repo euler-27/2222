@@ -1,7 +1,14 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <Image src="/images/euler.png" alt="work icons" height={500} width={500} />
-  );
+  return (
+    <div className="w-full h-full flex justify-center items-center">
+      <Image
+        src="/images/euler.png"
+        alt="work icons"
+        height={1000}
+        width={1000}
+      />
+    </div>
+  );
 }
