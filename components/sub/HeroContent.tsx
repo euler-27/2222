@@ -82,10 +82,11 @@ const HeroContent = () => {
           height={500}
           width={500}
         />
-        <div className="text-rose-50">微信：1232456</div>
-        <div className="text-rose-50">QQ：1232456</div>
-        <div className="text-rose-50">邮箱：1232456</div>
-        <div className="text-rose-50">微信：1232456</div>
+        <div className="text-rose-50">My Contact Information</div>
+        <div className="text-rose-50">Wechat：18922487256</div>
+        <div className="text-rose-50">QQ：1374329836@qq.com</div>
+        <div className="text-rose-50">Email：eulerpeng@gmail.com</div>
+        
       </motion.div>
     </motion.div>
   );
