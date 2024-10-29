@@ -68,7 +68,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Click here to learn more about my resume! 下面加一段一样的
         </motion.a>
       </div>
 
@@ -79,13 +79,15 @@ const HeroContent = () => {
         <Image
           src="/images/euler.png"
           alt="work icons"
-          height={500}
-          width={500}
+          height={700}
+          width={700}
         />
         <div className="text-rose-50">My Contact Information</div>
         <div className="text-rose-50">Wechat：18922487256</div>
-        <div className="text-rose-50">QQ：1374329836@qq.com</div>
+        <div className="text-rose-50">Phone Number：18922487256</div>
+        <div className="text-rose-50">QQ：1374329836</div>
         <div className="text-rose-50">Email：eulerpeng@gmail.com</div>
+        <div className="text-rose-50">字体改一下</div>
         
       </motion.div>
     </motion.div>

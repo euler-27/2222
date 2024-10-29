@@ -16,47 +16,47 @@ const Information = () => {
             <ul className="w-full">
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>电话: 18922487256</span>
+                  <span>姓名Name: 彭子涵Euler</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>邮箱: 1374329836@qq.com</span>
+                  <span>大学University: 广东工业大学Guangdong University of Technology</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>年龄: 21</span>
+                  <span>年龄Age: 21</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>性别: 男</span>
+                  <span>性别Gender: 男Male</span>
+                </div>
+              </li>
+              <li>
+                <div className="flex items-center justify-center w-full"> 
+                  <span>现所在地Current Location: 广州GuangZhou</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>现所在地: 广州</span>
+                  <span>体重Weight: 80kg</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>体重: 80kg</span>
+                  <span>身高Height: 178cm</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>身高: 178cm</span>
+                  <span>民族Ethnicity: 汉Han</span>
                 </div>
               </li>
               <li>
                 <div className="flex items-center justify-center w-full">
-                  <span>民族: 汉</span>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center justify-center w-full">
-                  <span>政治面貌: 中共预备党员</span>
+                  <span>出生年月Birth Date：2003.09</span>
                 </div>
               </li>
             </ul>
@@ -65,11 +65,11 @@ const Information = () => {
 
         <div className="w-full h-full">
           <Image
-            className="rounded-full spin"
-            src="/images/face.jpg"
+            //className="rounded-full spin"
+            src="/images/face.png"
             alt="work icons"
-            height={500}
-            width={500}
+            height={600}
+            width={600}
           />
         </div>
       </div>

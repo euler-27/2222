@@ -23,7 +23,7 @@ const Skills = () => {
         <div className="flex flex-row justify-start items-start flex-wrap">
           <motion.div
             variants={slideInFromRight(0.5)}
-            className="cursive text-[50px] text-gray-200 mb-10 mt-[10px] text-center w-full flex items-center justify-center gap-11"
+            className="cursive text-[70px] text-gray-200 mb-10 mt-[10px] text-center w-full flex items-center justify-center gap-13"
           >
             <span className="max-w-sm">
               Learned by<span className="text-cyan-500"> myself</span>
@@ -42,7 +42,7 @@ const Skills = () => {
         <div className="flex flex-row justify-start items-start flex-wrap ">
           <motion.div
             variants={slideInFromRight(0.5)}
-            className="cursive text-[50px] text-gray-200 mb-10 mt-[10px] text-center w-full flex items-center justify-center gap-11"
+            className="cursive text-[70px] text-gray-200 mb-10 mt-[10px] text-center w-full flex items-center justify-center gap-13"
           >
             <span>
               Learned from <span className="text-purple-500">university</span>
